@@ -22,6 +22,11 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/rupom', (req, res) => {
+    res.send('Hello RUPOM node js.. atlast rupom yo yo!');
+});
+
+
 //for PC
 app.post('/vision', (req, res) => {
 
